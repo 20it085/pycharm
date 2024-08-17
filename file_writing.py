@@ -1,0 +1,5 @@
+x = open("dev2.txt","r+")
+a = x.write("THE KING IS ALWAYS WRITE BECAUSE HE IS KING")
+print(a)
+print(x.read())
+x.close()
